@@ -1,0 +1,46 @@
+#highlight {
+    background-color: yellow;
+    border-style: solid;
+    border-color: black;
+    color: blue;
+    /* background: rgba(0, 0, 255, 0.1); */
+    height: 20px;
+    width: 30%;
+    background-style: solid;
+    background-color black;}
+body { border-style: solid;
+    /*
+    background-image: url("http://lorempixel.com/300/300");
+    background-repeat : repeat;
+    background-position: center;
+    background-color: blue;
+    */
+    /* background:  #0000FF  url("http://lorempixel.com/300/300") repeat center; */
+}
+div {
+    /*
+    margin-top:16px;
+    margin-right: auto;
+    margin-left:auto;
+    */
+    color: black;
+    margin : 20px 20px 20px 20px;
+    border: 3px solid black;
+    width: 200px ;
+    font-size: 16px ;
+}
+.span{
+    border-color: black;
+    border-style: solid;
+    width:70%;
+    height:30px;
+}
+
+
+.class1 {
+    color: red;
+}
+
+.class2 {
+    color: blue;
+}

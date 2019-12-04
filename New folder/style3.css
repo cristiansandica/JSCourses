@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+/* background: blue url(back.png) no-repeat right top; */
+
+}
+nav ul li a {
+	text-decoration: none;
+}
+nav ul li {
+	display: inline;
+	background-color: #E1E1E1;
+	color: black;
+	border: 1px solid #6E6E6E;
+}
+nav li {
+	padding: 5px;
+}
+nav ul li a:hover {
+	background-color: blue;
+	color: white;
+}
+p {
+	font-size: 0.875em;
+}
+div {
+}
+#content {
+	margin: 150px 20px 10px 75px;
+	border: #FF0004 10px solid;
+	padding: 10px 75px 150px 20px;
+}
+
+/*
+#myMargin {
+	border: #002CFF 10px solid;
+}
+#myPadding {
+	border: #00FF0D 10px solid;
+}
+#myBorder {
+	border: #FF0004 10px solid;
+}
+*/

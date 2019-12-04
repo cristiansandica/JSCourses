@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+/* background: blue url(back.png) no-repeat right top; */
+
+}
+p {
+	color: #0054FF;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.5em;
+	font-style: italic;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	letter-spacing: 3px;
+	word-spacing: 10px;
+}
+a {
+	text-decoration: none;
+}
+div {
+	background: white url(back.png) no-repeat right top;
+}
+#content {
+	text-align: center;
+}
+.content, li, #extras {
+}

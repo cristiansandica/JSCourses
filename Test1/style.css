@@ -1,0 +1,53 @@
+body{
+    margin:10px;
+}
+#header{
+    width: 100%;
+    padding-top: 1px;
+    margin-bottom: 10px;
+    background-color: yellow;
+    height: 70px;
+    font-size: 17px;
+    color:black;
+}
+#article{
+    float: left;
+    background-color: yellow;
+    height: 400px;
+    width: 85%;
+    border-left-width: 70px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+#nav{
+    display: inline-block;
+    background-color: yellow;
+    height: 460px;
+    width: 14%;
+    font-size: 17px;
+}
+
+#ads{
+    float:right;
+    background-color: yellow;
+    height: 400px;
+    width: 14%;
+}
+#footer{
+   float:left;
+    background-color: yellow;
+    height: 50px;
+    width: 100%;
+    display: inline-block;
+}
+.rightSection{
+    float:right;
+    width: 85%;
+    display: inline-block;
+    font-size: 17px;
+}
+.textPlacement{
+    margin-top: 10px;
+    margin-left: 30px;
+}

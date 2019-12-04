@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<select id="selectJudet" onchange="loadLocalitate()">
+    <option disabled selected>Selecteaza un Judetz</option>
+</select>
+
+<select id="selectLocalitate">
+    <option disabled selected>Selecteaza o Localitate</option>
+</select>
+
+<script>
+    var judete = [{id: 1, nume: "Iasi"}, {id: 2, nume: "Galati"}];
+    var localitati = [{id: 1, idjudet: 1, nume: "Iasi"}, {id: 2, idjudet: 1, nume: "Tg.Frumos"}, {
+        id: 3,
+        idjudet: 1,
+        nume: "Pascani"
+    }, {id: 4, idjudet: 2, nume: "Galati"}, {id: 5, idjudet: 2, nume: "Tulcea"}];
+
+    function loadJudete() {
+        var judeteSelectBox = document.getElementById("selectJudet");
+        for (var i = 0; i < judete.length; i++) {
+            var option = document.createElement("option");
+            option.text = judete[i].nume;
+            option.value = judete[i].id;
+            judeteSelectBox.add(option);
+        }
+
+    }
+
+    function loadLocalitate() {
+        var judeteSelectBox = document.getElementById("selectJudet");
+        var selectedJudet = judete[judeteSelectBox.value - 1];
+        var localitatiSelectBox = document.getElementById("selectLocalitate");
+
+        localitatiSelectBox.options = [];
+        // for (var i = 0; i < localitatiSelectBox.options.length; i++) {
+        //     localitatiSelectBox.remove(i);
+        // }
+        // localitatiSelectBox.remove(localitatiSelectBox.selectedIndex);
+
+        localitatiSelectBox.value = 0;
+
+        for (var i = 0; i < localitati.length; i++) {
+            if (selectedJudet.id === localitati[i].idjudet) {
+                var option = document.createElement("option");
+                option.text = localitati[i].nume;
+                option.value = localitati[i].id;
+                localitatiSelectBox.add(option);
+            }
+        }
+    }
+
+    loadJudete();
+</script>
+</body>
+</html>

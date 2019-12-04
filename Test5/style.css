@@ -1,0 +1,358 @@
+.header {
+    background-color: #464f4f;
+    height: 75px;
+}
+
+body {
+    margin: 0;
+}
+
+.titles h1 {
+    margin-top: 0;
+    margin-left: 40px;
+    margin-bottom: 0;
+    font-style: italic;
+    color: white;
+}
+
+.titles h3 {
+    margin-left: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: lightgrey;
+
+}
+
+.titles {
+    float: left;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+}
+
+.navigation-tabs {
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.navigation-tabs a {
+    text-decoration: none;
+    color: lightgrey;
+    font-size: 20px;
+
+}
+
+.navigation-tabs li {
+    display: inline-block;
+    margin-right: 55px;
+}
+
+.clear {
+    clear: both;
+}
+
+.article {
+    background-image: url(https://www.unitypixel.com/files/wallpapers/Aeroplane-HD-Background-Wallpapers-10551.jpg);
+    height: 500px;
+    color: white;
+    background-position-y: -355px;
+}
+
+.article-content {
+    padding-top: 45px;
+}
+
+.article h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 40px;
+    height: 50px;
+    font-style: italic;
+    color: black;
+}
+
+.article p {
+    width: 18%;
+    margin-left: 40px;
+    float: left;
+    margin-top: 0;
+    color: whitesmoke;
+}
+
+.article h2 {
+    margin-top: -19px;
+    margin-left: 100px;
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    color: black;
+}
+
+.block-left form {
+    width: 88%;
+    margin-top: 0;
+}
+.block-left h1{
+    margin-left:40px;
+}
+.block-right h1{
+    margin-left:40px;
+}
+.block-left form input {
+    margin-right: -38px;
+    margin-left: 41px;
+    border: none;
+
+}
+
+.block-left input[type=button] {
+    background-color:cornflowerblue;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 11%;
+    font-style: italic;
+
+}
+
+.flight-planner form {
+    margin-left: 50px;
+}
+
+.first-form {
+    display: inline-block;
+    float: left;
+    width: 59%;
+}
+
+.second-form {
+    display: inline-block;
+    width: 40%;
+    float: left;
+
+}
+
+.flight-planner input {
+    width: 42%;
+    margin-left: 30px;
+}
+
+.first-form label {
+    margin-left: 30px;
+}
+
+.second-form label {
+    margin-left: 30px;
+}
+
+.schedule label {
+    margin-left: 39px;
+}
+
+.schedule form input {
+    margin-left: 30px;
+}
+.schedule input[type="radio"]{
+    float: left;
+    width: 6%;
+}
+.schedule label{
+    float:left;
+}
+
+.departure-time-input {
+    padding: 3px;
+    margin-left: 47px;
+}
+
+.block-left {
+    float: left;
+    background-color: lightgrey;
+    width: 30%;
+    color: dimgrey;
+    height: 565px;
+}
+
+.block-left span {
+    margin-left: 40px;
+}
+
+.block-left a {
+    margin-left: 40px
+
+}
+
+.order-tickets-online {
+    float: left;
+    margin-left: -345px;
+}
+
+.order-tickets-online input {
+    padding: 3px;
+    margin-top: 80px;
+    margin-bottom: 0;
+    margin-left: 2px;
+    float: right;
+    background-color: #464f4f;
+    border: none;
+    color: white;
+}
+
+.recent-news h1 {
+    font-style: italic;
+
+}
+
+.recent-news a {
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+.recent-news hr {
+    width: 45%;
+    margin-left: 40px;
+}
+
+.welcome-to-our-website {
+    float: left;
+    margin-left: 40px;
+}
+
+
+.welcome-to-our-website a {
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+.welcome-to-our-website ul {
+    margin: 0;
+}
+
+.welcome-to-our-website h1 {
+    margin-left: 25px;
+}
+.welcome-to-our-website input{
+    background-color:#464f4f;
+    color:white;
+}
+.welcome-to-our-website input[value="FLEET"]{
+    background-color:cornflowerblue;
+}
+.welcome-to-our-website input[value="READ MORE"]{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: right;
+    margin-right: 316px;
+}
+.welcome-to-our-website form input[value="READ MORE"]{
+    width: 46%;
+}
+.block-right span {
+    margin-left: 30px;
+
+}
+
+.block-right a {
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 15px;
+    margin-left: 24px;
+}
+
+.content {
+    height: 565px;
+}
+
+.block-right {
+    float: right;
+    height: 565px;
+    background-color: white;
+    width: 70%;
+    color: dimgrey;
+}
+
+.block-right form {
+    float: right;
+    width: 28.7%;
+    margin-top: 5px;
+}
+
+.block-right ul {
+    margin-top: 30px;
+}
+
+.our-clients {
+    width: 39%;
+    float: left;
+    margin-left: 30px;
+}
+
+.our-clients p {
+    color: dimgrey;
+    width: 100%;
+    margin-left: 25px;
+}
+
+.blue-box {
+    color: white;
+    font-size: 13px;
+    text-align: left;
+    width: 17%;
+    float: right;
+    margin-right: 312px;
+    background-color: cornflowerblue;
+    height: 247px;
+    margin-top: 5px;
+}
+
+.blue-box span {
+    margin-top: 10px;
+}
+
+.blue-box-text {
+    padding-top: 57px;
+    margin-left: 25px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+}
+
+.footer-copytights {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #464f4f;
+    color: white;
+}
+
+.recent-news a {
+    font-size: 12px;
+}
+
+.recent-news span {
+    font-size: 15px;
+}
+
+.read-more input {
+    background-color: #464f4f;
+    color: white;
+    padding: 5px;
+}
+
+.fleet-reservation  {
+    float: right;
+    margin-right: 312px;
+}
+
+input {
+    font-style: italic;
+}

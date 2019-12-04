@@ -1,0 +1,370 @@
+body {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: white;
+    top: 0;
+    position: sticky;
+    height: 100px;
+}
+
+.header ul {
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.header li {
+    display: inline-block;
+}
+
+.header a {
+    text-decoration: none;
+    color: dimgrey;
+}
+
+
+.header li a {
+    padding: 30px 15px 30px;
+}
+
+.header li a:active {
+    border-top: 5px solid #94c045;
+    color: limegreen;
+    background-color: lightgrey;
+}
+
+.header h1 {
+    float: left;
+    margin-bottom: 0;
+
+
+}
+
+.article {
+    background-color: #f5f5f5;
+    height: 450px;
+    background-image: url("https://bootstrapmade.com/demo/themes/Serenity/assets/img/slides/sequence/img-2.png");
+    background-repeat: no-repeat;
+    background-position-x: 530px;
+    background-position-y: 31px;
+}
+
+.article h1 {
+    margin-top: 145px;
+    background-color: limegreen;
+    color: white;
+    float: left;
+    margin-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 40px;
+    border-radius: 5px;
+}
+
+.article h2 {
+    width: 21%;
+    background-color: dimgrey;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 185px;
+    margin-right: 866px;
+    margin-bottom: 0;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.article p {
+    width: 25%;
+    float: left;
+    color: dimgrey;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.article label {
+    margin-left: -137px;
+    color: white;
+}
+
+.learnmore {
+    margin-top: 76px;
+}
+
+.learnmore a {
+    background-color: limegreen;
+    color: white;
+    align-items: center;
+    padding: 5px 5px 5px;
+    border: #94c045 1px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.learnmore a:hover{
+background-color: darkgreen;
+}
+
+.row {
+    height: 275px;
+    margin-top: -57px;
+}
+
+.row i {
+    float: left;
+    border-radius: 60%;
+    background-color: limegreen;
+    padding: 10px;
+}
+
+.responsive-bootstrap {
+    float: left;
+    margin-top: 84px;
+    width: 24%;
+    margin-left: 7px;
+}
+
+.responsive-bootstrap h3 {
+    display: inline-block;
+    margin-left: 9px;
+    float: left;
+}
+
+.responsive-bootstrap p {
+    float: left;
+    color: dimgrey;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.responsive-bootstrap ul {
+    color: limegreen;
+    float: left;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.fa-suitcase {
+    font-size: 20px;
+    float: left;
+    margin-top: 10px;
+    color:white;
+}
+
+.fa-plane {
+    font-size: 20px;
+    float: left;
+    margin-top: 10px;
+    color:white;
+}
+
+.fa-leaf {
+    font-size: 20px;
+    float: left;
+    margin-top: 10px;
+    color:white;
+}
+
+.fa-wrench {
+    font-size: 20px;
+    float: left;
+    margin-top: 10px;
+    color:white;
+}
+
+.special-offer {
+    height: 250px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-bottom: #94c045 solid 7px;
+}
+
+.special-offer h1 {
+    padding-top: 60px;
+    margin-top: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+.special-offer p {
+    color: dimgrey;
+}
+
+.special-offer input {
+    padding: 17px 32px 16px;
+}
+
+footer {
+    background-color: #7e7e7e;
+    height: 100px;
+}
+
+footer span {
+    float: left;
+    margin-top: 40px;
+}
+
+footer p {
+    float: right;
+    margin-top: 40px;
+}
+
+.boxes {
+    position: relative;
+    display: inline-block;
+}
+.tryfree{
+    background-color: #94c045;
+    color: white;
+    text-align: center;
+    border: none;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 160px;
+    height: 43px;
+}
+
+.buylicence {
+    background-color: #7e7e7e;
+    color: white;
+    margin: 0 auto;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 160px;
+    height: 43px;
+}
+
+.boxes .fa-plane {
+    position: absolute;
+    left: 9px;
+    bottom: 1px;
+    top: 6px;
+    color: white
+}
+
+.boxes .fa-shopping-cart {
+    position: absolute;
+    left: 167px;
+    bottom: 1px;
+    top: 16px;
+    color: white;
+}
+
+.fa-pencil-square {
+    float: left;
+    border-radius: 60%;
+    padding: 10px;
+    font-size: 35px;
+}
+
+.bottom-content {
+    height: 370px;
+}
+
+img {
+    width: 100%;
+}
+
+.block i {
+    float: left;
+    margin-top: -10px;
+    padding: 10px;
+    background-color: #7e7e7e;
+    font-size: 20px;
+    color: white;
+}
+
+.block h3 {
+    font-size: 18px;
+    margin-left: 45px;
+    margin-top: 20px;
+    width: 78%;
+    margin-bottom: 0px;
+}
+
+.block span {
+    float: right;
+    color: dimgrey;
+    margin-left: 44px;
+    font-size: 18px;
+    margin-top: -7px;
+}
+
+.recent-blog-post {
+    float: left;
+    width: 24%;
+    margin-right: 1%;
+}
+
+.browsepages {
+    background-color: #333333;
+    height: 200px;
+}
+
+.left-list{
+    float:left;
+}
+.left-list h1{
+    margin-left: 30px;
+    color:white;
+}
+.left-list ul{
+    margin-left: 10px;
+    margin-top: 0;
+}
+.left-list a{
+    text-decoration: none;
+    color:white;
+}
+.left-list ul{
+    list-style: none;
+}
+.left-list a:hover{
+    color:greenyellow;
+}
+.center-list ul{
+    list-style:none;
+}
+.center-list ul{
+    margin-left: 10px;
+    margin-top: 0;
+}
+.center-list a{
+    text-decoration: none;
+    color:white;
+}
+
+.center-list{
+    margin-left: 230px;
+    float:left;
+    align-items: center;
+}
+.center-list h1{
+    margin-left: 30px;
+    color:white;
+}
+.right-side{
+    float:right;
+    width: 26%;
+}
+.right-side h1{
+    color:white;
+}
+.right-side p{
+    width: 55%;
+    color:white;
+}
+.img{
+    width: 10%;
+}

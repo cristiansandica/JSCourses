@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+/* background: blue url(back.png) no-repeat right top; */
+
+}
+nav ul li a {
+	text-decoration: none;
+}
+nav ul li {
+	display: inline;
+	background-color: #E1E1E1;
+	color: black;
+	border: 1px solid #6E6E6E;
+}
+nav li {
+	padding: 5px;
+}
+nav ul li a:hover {
+	background-color: blue;
+	color: white;
+}
+p {
+	font-size: 0.875em;
+}
+#mybox {
+	float: right;
+	background-color: blue;
+	height: 50px;
+	width: 50px;
+}
+#clearme {
+	border: #FF0004 10px solid;
+	clear: right;
+}
+#content {
+	overflow: hidden;
+}

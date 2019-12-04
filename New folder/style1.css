@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: #F5F4EF;
+	color: #000305;
+	font-size: 87.5%; /* Base font size: 14px */
+	font: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	line-height: 1.429;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+/* Headings */
+h2 {
+	font-size: 1.571em
+} /* 22px */
+h3 {
+	font-size: 1.429em
+} /* 20px */
+h4 {
+	font-size: 1.286em
+} /* 18px */
+h5 {
+	font-size: 1.143em
+} /* 16px */
+h6 {
+	font-size: 1em
+} /* 14px */
+h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: .8em;
+}
+/* Anchors */
+a {
+	outline: 0;
+}
+a img {
+	border: 0px;
+	text-decoration: none;
+}
+a:link, a:visited {
+	color: #C74350;
+	padding: 0 1px;
+}
+a:hover, a:active {
+	background-color: #C74350;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #333;
+}
+/* Paragraphs */
+p {
+	margin-bottom: 1.143em;
+}
+* p:last-child {
+	margin-bottom: 0;
+}
+strong, b {
+	font-weight: bold;
+}
+em, i {
+	font-style: italic;
+}
+/* Navigation */
+nav ul li a {
+	text-decoration: none;
+}
+nav ul li {
+	display: inline;
+	background-color: #E1E1E1;
+	color: black;
+	border: 1px solid #6E6E6E;
+}
+nav li {
+	padding: 5px;
+}
+nav ul li a:hover {
+	background-color: blue;
+	color: white;
+}
+/* custom Classes */
+.myInfo {
+	font-size: 10px;
+}
+.myImage {
+	width: 200px;
+	height: 100px;
+}
+.body {
+	padding: 20px;
+}
